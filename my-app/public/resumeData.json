@@ -141,12 +141,6 @@
         "category":"A React based resume website template",
         "image":"resume-website.jpg",
         "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"smirkspace.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   },
