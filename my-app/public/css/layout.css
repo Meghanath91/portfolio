@@ -191,6 +191,7 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
+   height: 1200px;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -420,6 +421,7 @@ ul#nav li.current a { color: #F06000; }
    background: #ebeeee;
    padding-top: 90px;
    padding-bottom: 60px;
+   height: 1200px;
 }
 #portfolio h1 {
    font: 15px/24px 'opensans-semibold', sans-serif;
@@ -650,6 +652,7 @@ call-to-action .button {
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
 
+   height: 1000px;
    position: relative;
    min-height: 200px;
    width: 100%;
