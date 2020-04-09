@@ -1,6 +1,6 @@
 {
   "main": {
-    "name":"Meghanath Ponoly Balakrishnan",
+    "name":"Meghanath Ponoly",
     "occupation":"Full Stack Web Developer",
     "description":"A developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing websites with end users in mind.",
     "image":"profilepic.jpg",
@@ -44,19 +44,19 @@
         "school":"India Options",
         "degree":"Software Testing & Automation Diploma",
         "graduated":"December 2014",
-        "description":"I get a chance to learn how software development cycle and software testing life works and different testing methodlogies,testing frameworks etc."
+        "description":"I get a chance to learn how software development cycle and software testing life works.Also i have learned different testing methodlogies and testing frameworks like selenium Webdriver etc."
       },
       {
         "school":"Centennial",
         "degree":"Energy Systems Engineering Advanced Diploma",
         "graduated":"May 2016",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"I achieved higher grades  in PLC, Renewable Energy System, Power Electronics. I have designed Solar based Wireless power transmission prototype and I conducted an Energy auditing project of a 7 Eleven store"
       },
       {
         "school":"Calicut University",
         "degree":"Bachelor of Technology in Electrical & Electronics Engineering ",
         "graduated":"May 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"During my undergrad I was able to develop my skills in complex problem solving and analytical thinking. Designed and executed two energy efficient projects: 1.Substation Automation (Conducted at Electrical Automation Lab) this project involved in full automation of substation. 2.Power Over Usage Indicator (Conducted at Research & Development Lab"
       }
     ],
     "work":[
@@ -64,7 +64,7 @@
         "company":"Bell Canada",
         "title":"Telecommunications Technician",
         "years":"May 2017 - Present",
-        "description":"Installation and maintenance of network systems .Troubleshoot complex telecommunications systems.Started as technician and promoted to Mentor and Trainer.Achieved merit of excellence award for 2018"
+        "description":"I was doing Installation and maintenance of network systems.I also managed to Troubleshoot complex telecommunications systems.I Started my career in Bell as technician and promoted to Mentor and Trainer. My greatest achivement merit of excellence award for 2018"
       },
       {
         "company":"Grasshopper Solar",
@@ -76,19 +76,19 @@
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "level":"80%"
       },
       {
         "name":"Node.js",
-        "level":"55%"
+        "level":"80%"
       },
       {
         "name":"React.Js",
-        "level":"50%"
+        "level":"75%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"70%"
       },
       {
         "name":"HTML5",
@@ -96,7 +96,7 @@
       },
       {
         "name":"Express",
-        "level":"50%"
+        "level":"65%"
       },
       {
         "name":"PostgreSQL",
@@ -108,11 +108,23 @@
       },
       {
         "name":"Jest",
-        "level":"80%"
+        "level":"60%"
       },
       {
         "name":"Linux",
         "level":"80%"
+      },
+      {
+        "name":"Java",
+        "level":"25%"
+      },
+      {
+        "name":"C++",
+        "level":"25%"
+      },
+      {
+        "name":"Adobe Photoshop",
+        "level":"75%"
       }
     ]
   },
@@ -147,12 +159,12 @@
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
+        "text":"Meghanath was a great team player with good leadership qualities. He was my partner in 2 of our projects and he was extremely goal oriented and hardworking person",
+        "user":"Parth Desai"
       },
       {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"Meghanath showed great passion in learning and coding. He was very focused and determined to achieve his goals during the bootcamp. I have witnessed his hardwork and enthusiasm on his projects",
+        "user":"Steve Wozniak... Instructor & mentor @ Lighthouse Labs"
       }
     ]
   }
