@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactPlayer from "react-player";
 
 class Header extends Component {
   render() {
@@ -31,7 +32,21 @@ class Header extends Component {
          </ul>
 
       </nav>
+      <div className="video-content">
+      <ReactPlayer
+      className="video"
+      playing="true"
+      autoplay
+      loop
+      muted
+      width="100%"
+      height="100%" 
+      url='/videos/Fitness.mp4'
+      />
 
+      </div>
+     
+      
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">I'm {name}.</h1>
