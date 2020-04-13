@@ -41,7 +41,7 @@ class Header extends Component {
       muted
       width="100%"
       height="100%" 
-      url='/videos/Head.mp4'
+      url='/videos/earth.mp4'
       />
 
       </div>
