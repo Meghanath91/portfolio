@@ -4,7 +4,7 @@
     "occupation":"Full Stack Web Developer",
     "description":"A developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing websites with end users in mind.",
     "image":"profilepic.jpg",
-    "bio":"I was working on Bell as telecommunication technician before i pursue web development. My day to day life in Bell was pretty much troubleshooting issues on network elements and connecting both end user and central office. Working on the physical layer of networking made me curious to know about software side. That made me took this path. Moreover I am a professional photographer and graphic designer, so i wanted to combine these experiences together and create interesting experiences for users",
+    "bio":"I am a Full Stack Web Developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing websites with end users in mind. I was working on Bell as telecommunication technician before I pursued web development. My day to day life in Bell was pretty much troubleshooting issues on network elements and connecting both end user and central office. Working on the physical layer of networking made me curious to know about software side. That made me took this path. Moreover I am a professional photographer and graphic designer, so I wanted to combine these experiences together and create interesting experiences for users",
     "contactmessage":"Please send me message",
     "email": "meghanath.balaji@gmail.com",
     "phone": "647-528-7504",
@@ -32,7 +32,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"i am a full stack developer with good knowledge in database, backend, frontend",
+    "skillmessage":"I am a full stack developer with good knowledge in database, backend, frontend",
     "education":[
       {
         "school":"Lighthouse Labs",
@@ -43,8 +43,8 @@
       {
         "school":"India Options",
         "degree":"Software Testing & Automation Diploma",
-        "graduated":"December 2014",
-        "description":"I get a chance to learn how software development cycle and software testing life works.Also i have learned different testing methodlogies and testing frameworks like selenium Webdriver etc."
+        "graduated":"December 2016",
+        "description":"I get a chance to learn how software development cycle and software testing life works.Also I have learned different testing methodlogies and testing frameworks like selenium Webdriver etc."
       },
       {
         "school":"Centennial",
@@ -64,7 +64,7 @@
         "company":"Bell Canada",
         "title":"Telecommunications Technician",
         "years":"May 2017 - Present",
-        "description":"I was doing Installation and maintenance of network systems.I also managed to Troubleshoot complex telecommunications systems.I Started my career in Bell as technician and promoted to Mentor and Trainer. My greatest achivement merit of excellence award for 2018"
+        "description":"I was doing Installation and maintenance of network systems. I also managed to Troubleshoot complex telecommunications systems. I Started my career in Bell as technician and promoted to Mentor and Trainer. My greatest achivement merit of excellence award for 2018"
       },
       {
         "company":"Grasshopper Solar",
@@ -134,7 +134,7 @@
         "title":"Custom-fitness",
         "category":"An app that allows to connect trainers and students where trainers can create custom workouts and students can complete it. ",
         "image":"Custom Fitness.gif",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://github.com/ShivamP96/CustomFitness"
       },
       {
         "title":"Rumours-Lounge & Restaurant ",
@@ -152,7 +152,7 @@
         "title":"Portfolio Website",
         "category":"A React based resume website template",
         "image":"portfolio.gif",
-        "url":"https://github.com/Meghanath91/portfolio"
+        "url":" https://meghanath91.herokuapp.com"
       }
     ]
   },
@@ -164,7 +164,7 @@
       },
       {
         "text":"Meghanath showed great passion in learning and coding. He was very focused and determined to achieve his goals during the bootcamp. I have witnessed his hardwork and enthusiasm on his projects",
-        "user":"Steve Wozniak... Instructor & mentor @ Lighthouse Labs"
+        "user":"Vasily... Instructor & mentor @ Lighthouse Labs"
       }
     ]
   }
