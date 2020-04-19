@@ -982,7 +982,7 @@ call-to-action .button {
   color: #fff;
   background-color: #11abb0;
 }
-#contact button.submit {
+#contact button {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: #fff;

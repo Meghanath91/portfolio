@@ -5,10 +5,13 @@ const morgan = require("morgan");
 const path = require("path");
 const normalizePort = (port) => parseInt(port, 10);
 const PORT = normalizePort(process.env.PORT || 5000);
-
+const cors = require("cors");
+const bodyParser = require("body-parser");
 const app = express();
 const dev = app.get("env") !== "production";
+const nodeMailer = require("./apis/nodeMailer");
 
+app.use(cors({ origin: true, credentials: true }));
 if (!dev) {
   app.disable("x-powered-by");
   app.use(compression());
@@ -24,6 +27,15 @@ if (dev) {
   app.use(morgan("dev"));
 }
 const server = createServer(app);
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
+
+app.post("/api/contact", (req, res) => {
+  const msgInfo=req.body;
+  nodeMailer(msgInfo)
+  console.log("email sent");
+  res.json("success");
+});
 
 server.listen(PORT, (err) => {
   if (err) throw err;

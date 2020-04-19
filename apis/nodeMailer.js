@@ -1,7 +1,7 @@
-const nodemailer = require('nodemailer');
 
-function nodeMailer() {
 
+function nodeMailer(msg) {
+  const nodemailer = require('nodemailer');
   /*Transport service is used by node mailer to send emails, it takes service and auth object as parameters.
 here we are using gmail as our service
 In Auth object , we specify our email and password
@@ -16,9 +16,9 @@ var transporter = nodemailer.createTransport({
 
   var mailOptions = {
     from: 'meghanath.balaji@gmail.com',//replace with your email
-    to: 'arathyr.lbs@gmail.com',//replace with your email
-    subject: 'meghanath',
-    html: `<h1>Contact details</h1>`
+    to: msg.Email,//replace with your email
+    subject: msg.subject,
+    html: `<p>${msg.Message}</p>`
 
     };
 
