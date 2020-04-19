@@ -1,4 +1,5 @@
 function nodeMailer(msg) {
+
   const nodemailer = require("nodemailer");
   /*Transport service is used by node mailer to send emails, it takes service and auth object as parameters.
 here we are using gmail as our service
@@ -28,15 +29,15 @@ In Auth object , we specify our email and password
   `
 
   const mailClient = {
-    from: "meghanath.balaji@gmail.com", //replace with your email
+    from: process.env.ADMIN_EMAIL, //replace with your email
     to: msg.Email, //replace with your email
     subject: `Thank you `,
     html: clientMail
   };
 
   const mailAdmin = {
-    from: "meghanath.ponoly@gmail.com", //replace with your email
-    to: "meghanath.balaji@gmail.com", //replace with your email
+    from: process.env.ADMIN_EMAIL, //replace with your email
+    to: process.env.MY_EMAIL, //replace with your email
     subject: msg.Subject,
     html: adminMail
   };
