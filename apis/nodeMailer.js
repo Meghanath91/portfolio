@@ -12,21 +12,31 @@ In Auth object , we specify our email and password
     },
   });
 
+  const adminMail =`
+  <h2>Contact details</h2>
+  <h5> name:${msg.fullName} </h5><br>
+  <h5> subject: ${msg.Subject} </h5>
+  <p>${msg.Message}</p>
+  ` ;
+
+  const clientMail = `
+  <h4>Thank you ${msg.fullName} for reaching me out !</h4><br>
+  <img src = "https://unsplash.com/photos/aExT3y92x5o">
+  <p> I will get back to you within 1-2 business days. You can also reach out to me on +1 647-528-7504 for urgent enquiries </p>
+  `
+
   const mailClient = {
     from: "meghanath.balaji@gmail.com", //replace with your email
     to: msg.Email, //replace with your email
     subject: `Thank you `,
-    html: `<h4>Thank you ${msg.fullName} for reaching me out !<h2><br>
-    <p> I will get back to you within 1-2 business days. You can also reach out to me on +1 647-528-7504 for urgent enquiries </p>`
+    html: clientMail
   };
 
   const mailAdmin = {
     from: "meghanath.balaji@gmail.com", //replace with your email
     to: "meghanath.balaji@gmail.com", //replace with your email
     subject: msg.Subject,
-    html: `<h2>Contact details</h2>
-    <h5> name:${msg.fullName} </h5><br>
-    <p>${msg.Message}</p>`,
+    html: adminMail
   };
 
   transporter.sendMail(mailAdmin, function (res, error, info) {
