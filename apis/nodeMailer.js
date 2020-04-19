@@ -15,15 +15,18 @@ In Auth object , we specify our email and password
   const mailClient = {
     from: "meghanath.balaji@gmail.com", //replace with your email
     to: msg.Email, //replace with your email
-    subject: msg.Subject,
-    html: `<p>${msg.Message}</p>`,
+    subject: `Thank you `,
+    html: `<h4>Thank you ${msg.fullName} for reaching me out !<h2>
+    <p> I will get back to you within 1-2 business days</p>`
   };
 
   const mailAdmin = {
     from: "meghanath.balaji@gmail.com", //replace with your email
     to: "meghanath.balaji@gmail.com", //replace with your email
     subject: msg.Subject,
-    html: `<p>${msg.Message}</p>`,
+    html: `<h2>Contact details</h2>
+    <h5> name:${msg.fullName} </h5><br>
+    <p>${msg.Message}</p>`,
   };
 
   transporter.sendMail(mailAdmin, function (res, error, info) {
