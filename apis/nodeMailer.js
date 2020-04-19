@@ -13,16 +13,24 @@ In Auth object , we specify our email and password
   });
 
   const adminMail =`
+  <style>
+  body {
+    background-image:url("https://images.unsplash.com/photo-1509641498745-13c26fd1ed89?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+  }
+  </style>
+  <body>
   <h2>Contact details</h2>
   <h5> name:${msg.fullName} </h5><br>
   <h5> subject: ${msg.Subject} </h5>
   <p>${msg.Message}</p>
+  </body>
   ` ;
 
   const clientMail = `
-  <h4>Thank you ${msg.fullName} for reaching me out !</h4><br>
-  <img src = "https://unsplash.com/photos/aExT3y92x5o">
-  <p> I will get back to you within 1-2 business days. You can also reach out to me on +1 647-528-7504 for urgent enquiries </p>
+
+  <h4>Thank you ${msg.fullName} for reaching out !</h4><br>
+  <img src="https://images.unsplash.com/photo-1509641498745-13c26fd1ed89?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+  <p> I will get back to you within 1-2 business days. You can also reach out to me on +1 647-528-7504 for urgent enquiries. </p>
   `
 
   const mailClient = {
