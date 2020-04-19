@@ -17,12 +17,12 @@ var transporter = nodemailer.createTransport({
   var mailOptions = {
     from: 'meghanath.balaji@gmail.com',//replace with your email
     to: msg.Email,//replace with your email
-    subject: msg.subject,
+    subject: msg.Subject,
     html: `<p>${msg.Message}</p>`
 
     };
 
-    transporter.sendMail(mailOptions, function(error, info){
+    transporter.sendMail(mailOptions, function(res,error, info){
       if (error) {
       console.log(error);
       res.send('error') // if error occurs send error as response to client
