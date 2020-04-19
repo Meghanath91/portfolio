@@ -16,8 +16,8 @@ In Auth object , we specify our email and password
     from: "meghanath.balaji@gmail.com", //replace with your email
     to: msg.Email, //replace with your email
     subject: `Thank you `,
-    html: `<h4>Thank you ${msg.fullName} for reaching me out !<h2>
-    <p> I will get back to you within 1-2 business days</p>`
+    html: `<h4>Thank you ${msg.fullName} for reaching me out !<h2><br>
+    <p> I will get back to you within 1-2 business days. You can also reach out to me on +1 647-528-7504 for urgent enquiries </p>`
   };
 
   const mailAdmin = {
