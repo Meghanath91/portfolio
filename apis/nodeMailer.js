@@ -4,7 +4,7 @@ function nodeMailer(msg) {
 here we are using gmail as our service
 In Auth object , we specify our email and password
 */
-  var transporter = nodemailer.createTransport({
+  let transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
       user: "meghanath.balaji@gmail.com", //replace with your email
@@ -12,14 +12,14 @@ In Auth object , we specify our email and password
     },
   });
 
-  var mailClient = {
+  const mailClient = {
     from: "meghanath.balaji@gmail.com", //replace with your email
     to: msg.Email, //replace with your email
     subject: msg.Subject,
     html: `<p>${msg.Message}</p>`,
   };
 
-  var mailAdmin = {
+  const mailAdmin = {
     from: "meghanath.balaji@gmail.com", //replace with your email
     to: "meghanath.balaji@gmail.com", //replace with your email
     subject: msg.Subject,
