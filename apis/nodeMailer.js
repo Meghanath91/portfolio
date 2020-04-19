@@ -7,8 +7,8 @@ In Auth object , we specify our email and password
   let transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "meghanath.ponoly@gmail.com", //replace with your email
-      pass: "VARsha9495*", //replace with your password
+      user: process.env.ADMIN_EMAIL, //replace with your email
+      pass: process.env.ADMIN_PASSWORD, //replace with your password
     },
   });
 
