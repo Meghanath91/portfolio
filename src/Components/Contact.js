@@ -31,7 +31,7 @@ class Contact extends Component {
     event.preventDefault();
 
     axios
-      .post("http://localhost:5000/api/contact", {
+      .post("/api/contact", {
         fullName: this.state.contactName,
         Email: this.state.contactEmail,
         Subject:this.state.contactSubject,

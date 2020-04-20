@@ -133,7 +133,7 @@
       {
         "title":"Custom-fitness",
         "category":"An app that allows to connect trainers and students where trainers can create custom workouts and students can complete it. ",
-        "image":"Custom Fitness.gif",
+        "image":"Custom.gif",
         "url":"https://github.com/ShivamP96/CustomFitness"
       },
       {
@@ -145,7 +145,7 @@
       {
         "title":"Interview Scheduler",
         "category":"An interactive web app to manage interview schedules",
-        "image":"Interview Scheduler.gif",
+        "image":"interview.gif",
         "url":"https://github.com/Meghanath91/scheduler"
       },
       {
