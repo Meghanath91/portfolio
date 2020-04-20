@@ -22,7 +22,7 @@ if (!dev) {
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "build", "index.html"));
   });
-
+  const server = createServer(app);
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
   
@@ -32,6 +32,11 @@ if (!dev) {
     console.log("email sent");
     res.json("success");
   });
+  server.listen(PORT, (err) => {
+    if (err) throw err;
+    console.log("Server started");
+  });
+  
 }
 
 if (dev) {
