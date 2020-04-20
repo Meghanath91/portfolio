@@ -8,8 +8,8 @@ In Auth object , we specify our email and password
   let transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: process.env.ADMIN_EMAIL, //replace with your email
-      pass: process.env.ADMIN_PASSWORD, //replace with your password
+      user: "meghanath.ponoly@gmail.com", //replace with your email
+      pass: "ARAthy9495*", //replace with your password
     },
   });
 
@@ -30,15 +30,15 @@ In Auth object , we specify our email and password
   `
 
   const mailClient = {
-    from: process.env.ADMIN_EMAIL, //replace with your email
+    from: 'meghanath.ponoly@gmail.com', //replace with your email
     to: msg.Email, //replace with your email
     subject: `Thank you `,
     html: clientMail
   };
 
   const mailAdmin = {
-    from: process.env.ADMIN_EMAIL, //replace with your email
-    to: process.env.MY_EMAIL, //replace with your email
+    from: "meghanath.ponoly@gmail.com", //replace with your email
+    to: "meghanath.balaji@gmail.com", //replace with your email
     subject: msg.Subject,
     html: adminMail
   };
