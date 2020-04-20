@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import axios from "axios";
 
 class Contact extends Component {
+
   constructor(props) {
     super(props);
     this.state = {
@@ -13,21 +14,18 @@ class Contact extends Component {
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleClick = this.handleClick.bind(this);
   }
 
   handleChange(event) {
     this.setState({
       [event.target.name]: event.target.value
-     
     });
   }
 
   handleClick(event) {
     alert("Email was submitted: Meghanath" );
-
   }
-
-  
 
   handleSubmit(event) {
     event.preventDefault();
@@ -40,7 +38,12 @@ class Contact extends Component {
         Message: this.state.contactMessage,
       })
       .then((res) => {
-        // debugger;
+        this.setState({
+          contactName:"",
+          contactEmail: "",
+          contactSubject:"",
+          contactMessage: "", 
+          });
         console.log("respose", res.data);
       });
   }
@@ -88,7 +91,7 @@ class Contact extends Component {
                   size="35"
                   id="contactName"
                   name="contactName"
-                  value={this.state.value}
+                  value={this.state.contactName}
                   onChange={this.handleChange}
                 />
               </div>
@@ -103,7 +106,7 @@ class Contact extends Component {
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
-                  value={this.state.value}
+                  value={this.state.contactEmail}
                     onChange={this.handleChange}
                 />
               </div>
@@ -116,7 +119,7 @@ class Contact extends Component {
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
-                  value={this.state.value}
+                  value={this.state.contactSubject}
                     onChange={this.handleChange}
                 />
               </div>
@@ -129,7 +132,7 @@ class Contact extends Component {
                   cols="50"
                   rows="15"
                   id="contactMessage"
-                  value={this.state.value}
+                  value={this.state.contactMessage}
                   onChange={this.handleChange}
                   name="contactMessage"
                 ></textarea>

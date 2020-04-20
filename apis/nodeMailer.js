@@ -16,6 +16,7 @@ In Auth object , we specify our email and password
   const adminMail =`
   <h2>Contact details</h2>
   <h5> name:${msg.fullName} </h5><br>
+  <h5> Email:${msg.Email} </h5><br>
   <h5> subject: ${msg.Subject} </h5>
   <p>${msg.Message}</p>
   ` ;
@@ -45,20 +46,20 @@ In Auth object , we specify our email and password
   transporter.sendMail(mailAdmin, function (res, error, info) {
     if (error) {
       console.log(error);
-      res.send("error"); // if error occurs send error as response to client
+      // res.send("error"); // if error occurs send error as response to client
     } else {
-      console.log("Email sent: " + info.response);
-      res.send("Sent Successfully"); //if mail is sent successfully send Sent successfully as response
+      console.log("Email sent: ");
+      // res.send("Sent Successfully"); //if mail is sent successfully send Sent successfully as response
     }
   });
 
   transporter.sendMail(mailClient, function (res, error, info) {
     if (error) {
       console.log(error);
-      res.send("error"); // if error occurs send error as response to client
+      // res.send("error"); // if error occurs send error as response to client
     } else {
-      console.log("Email sent: " + info.response);
-      res.send("Sent Successfully"); //if mail is sent successfully send Sent successfully as response
+      console.log("Email sent: ");
+      // res.send("Sent Successfully"); //if mail is sent successfully send Sent successfully as response
     }
   });
 
