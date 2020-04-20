@@ -26,7 +26,7 @@ if (!dev) {
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(bodyParser.json());
   
-  app.post("/api/contact", (req, res) => {
+  app.post("/contact", (req, res) => {
     const msgInfo=req.body;
     nodeMailer(msgInfo)
     console.log("email sent");
