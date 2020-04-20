@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const path = require("path");
 require("dotenv").config();
 // const normalizePort = (port) => parseInt(port, 10);
-// const PORT = normalizePort(process.env.PORT || 5000);
+const PORT = process.env.PORT || 5000;
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const app = express();
@@ -13,7 +13,7 @@ const dev = app.get("env") !== "production";
 const nodeMailer = require("./apis/nodeMailer");
 
 app.use(cors({ origin: true, credentials: true }));
-if (process.env.NODE_ENV==='production') {
+if (!dev) {
   app.disable("x-powered-by");
   app.use(compression());
   app.use(morgan("common"));
