@@ -139,7 +139,6 @@ class Contact extends Component {
               </div>
 
             
-              {/* <input id="submit" type="submit" value="Submit" /> */}
               {/* <div>
                 <button className="submit">Submit</button>
                 <span id="image-loader">

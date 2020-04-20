@@ -22,6 +22,16 @@ if (!dev) {
   app.get("*", (req, res) => {
     res.sendFile(path.resolve(__dirname, "build", "index.html"));
   });
+
+  app.use(bodyParser.urlencoded({ extended: true }));
+  app.use(bodyParser.json());
+  
+  app.post("/api/contact", (req, res) => {
+    const msgInfo=req.body;
+    nodeMailer(msgInfo)
+    console.log("email sent");
+    res.json("success");
+  });
 }
 
 if (dev) {
