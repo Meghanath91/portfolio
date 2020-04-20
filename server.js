@@ -5,7 +5,7 @@ const morgan = require("morgan");
 const path = require("path");
 require("dotenv").config();
 const normalizePort = (port) => parseInt(port, 10);
-const PORT = normalizePort(process.env.PORT || 5000);
+const PORT = normalizePort(process.env.PORT);
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const app = express();
