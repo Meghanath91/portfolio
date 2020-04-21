@@ -28,7 +28,7 @@ In Auth object , we specify our email and password
   <p>Regards,</p>
   <h5>Meghanath </h5>
   `
-
+//this is for client email
   const mailClient = {
     from: process.env.ADMIN_EMAIL, //replace with your email
     to: msg.Email, //replace with your email
