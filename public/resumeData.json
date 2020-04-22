@@ -134,7 +134,7 @@
         "title":"Custom-fitness",
         "category":"An app that allows to connect trainers and students where trainers can create custom workouts and students can complete it. ",
         "image":"Custom.gif",
-        "url":"https://github.com/ShivamP96/CustomFitness"
+        "url":"https://customfitness.netlify.app/"
       },
       {
         "title":"Rumours-Lounge & Restaurant ",
@@ -146,7 +146,7 @@
         "title":"Interview Scheduler",
         "category":"An interactive web app to manage interview schedules",
         "image":"interview.gif",
-        "url":"https://github.com/Meghanath91/scheduler"
+        "url":"https://intscheduler.netlify.app/"
       },
       {
         "title":"Portfolio Website",
@@ -160,11 +160,11 @@
     "testimonials":[
       {
         "text":"Meghanath was a great team player with good leadership qualities. He was my partner in 2 of our projects and he was extremely goal oriented and hardworking person",
-        "user":"Parth Desai"
+        "user":"Parth Desai...FullStack Web Developer"
       },
       {
         "text":"Meghanath showed great passion in learning and coding. He was very focused and determined to achieve his goals during the bootcamp. I have witnessed his hardwork and enthusiasm on his projects",
-        "user":"Vasily... Instructor & mentor @ Lighthouse Labs"
+        "user":"Vasily Klimkin... Instructor & mentor @ Lighthouse Labs"
       }
     ]
   }
