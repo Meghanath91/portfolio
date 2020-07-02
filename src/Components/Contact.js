@@ -136,16 +136,7 @@ class Contact extends Component {
                   onChange={this.handleChange}
                   name="contactMessage"
                 ></textarea>
-              </div>
-
-            
-              {/* <div>
-                <button className="submit">Submit</button>
-                <span id="image-loader">
-                  <img alt="" src="images/loader.gif" />
-                </span> */}
-
-               
+              </div>   
                 <button
                 id="button"
                 onClick={this.handleClick}
