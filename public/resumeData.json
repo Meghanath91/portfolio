@@ -1,170 +1,168 @@
 {
   "main": {
-    "name":"Meghanath Ponoly",
-    "occupation":"Full Stack Web Developer",
-    "description":"A developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing websites with end users in mind.",
-    "image":"profilepic.jpg",
-    "bio":"I am a Full Stack Web Developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing and developing websites with end users in mind. I started coding C++ when I was in high school, Later on I learned Java from professional course. When I got the right time to switch career I joined in a coding boot camp, which gave me confidence and experience to present my self as Full stack developer. I don't like to define myself by the work I've done. I define myself by the work I want to do. Skills can be taught but attitude is inherent . I am a multi-talented person with knowledge and experience in different fields especially in telecommunications, networking. I prefer to keep learning, continue challenging myself, and do interesting things that matter. Moreover I am a professional photographer and graphic designer, so I wanted to combine these experiences together and create multidimensional experiences for users.",
-    "contactmessage":"Please send me message",
+    "name": "Meghanath",
+    "occupation": "Full Stack Web Developer",
+    "description": "A developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing websites with end users in mind.",
+    "image": "profilepic.jpg",
+    "bio": "I am a Full Stack Web Developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing and developing websites with end users in mind. I started coding C++ when I was in high school, Later on I learned Java from professional course. When I got the right time to switch career I joined in a coding boot camp, which gave me confidence and experience to present my self as Full stack developer. I don't like to define myself by the work I've done. I define myself by the work I want to do. Skills can be taught but attitude is inherent . I am a multi-talented person with knowledge and experience in different fields especially in telecommunications, networking. I prefer to keep learning, continue challenging myself, and do interesting things that matter. Moreover I am a professional photographer and graphic designer, so I wanted to combine these experiences together and create multidimensional experiences for users.",
+    "contactmessage": "Please send me message",
     "email": "meghanath.balaji@gmail.com",
     "phone": "647-528-7504",
-    "address":{
-      "street":"2233 Eglinton Avenue East",
-      "city":"Toronto",
-      "state":"Ontario",
+    "address": {
+      "street": "2233 Eglinton Avenue East",
+      "city": "Toronto",
+      "state": "Ontario",
       "zip": "M1K2M9"
     },
     "website": "https://500px.com/meghanathpbala",
-    "resumedownload":"https://www.canva.com/design/DAD0_YgjkkY/80WF1PBJOuVAISfzBrbAKQ/view?utm_content=DAD0_YgjkkY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
-    "social":[
-      
+    "resumedownload": "https://www.canva.com/design/DAD0_YgjkkY/80WF1PBJOuVAISfzBrbAKQ/view?utm_content=DAD0_YgjkkY&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/meghanathponoly/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/meghanathponoly/",
+        "className": "fa fa-linkedin"
       },
-     
       {
-        "name":"github",
-        "url":"https://github.com/Meghanath91",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/Meghanath91",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"I am a full stack developer with good knowledge in database, backend, frontend",
-    "education":[
+  "resume": {
+    "skillmessage": "I am a full stack developer with good knowledge in database, backend, frontend",
+    "education": [
       {
-        "school":"Lighthouse Labs",
-        "degree":"Full Stack Web  Developer bootCamp",
-        "graduated":"April 2020",
-        "description":"It was an intense learning experience. I used to code almost 15 hours per day during my bootcamp. We did 2 projects from scratch our own and 5 in-class projects. This project experience helped me to sharpen my skills in React, Node.js, HTML, CSS, PostgreSQL etc. Moreover we get hands on experience on testing frameworks as Selenium, Jest, Chai, Cypress."
+        "school": "Lighthouse Labs",
+        "degree": "Full Stack Web  Developer bootCamp",
+        "graduated": "April 2020",
+        "description": "It was an intense learning experience. I used to code almost 15 hours per day during my bootcamp. We did 2 projects from scratch our own and 5 in-class projects. This project experience helped me to sharpen my skills in React, Node.js, HTML, CSS, PostgreSQL etc. Moreover we get hands on experience on testing frameworks as Selenium, Jest, Chai, Cypress."
       },
       {
-        "school":"India Options",
-        "degree":"Software Testing & Automation Diploma",
-        "graduated":"December 2016",
-        "description":"I get a chance to learn how software development cycle and software testing life works.Also I have learned different testing methodlogies and testing frameworks like selenium Webdriver etc."
+        "school": "India Options",
+        "degree": "Software Testing & Automation Diploma",
+        "graduated": "December 2016",
+        "description": "I get a chance to learn how software development cycle and software testing life works.Also I have learned different testing methodlogies and testing frameworks like selenium Webdriver etc."
       },
       {
-        "school":"Centennial",
-        "degree":"Energy Systems Engineering Advanced Diploma",
-        "graduated":"May 2016",
-        "description":"I achieved higher grades  in PLC, Renewable Energy System, Power Electronics. I have designed Solar based Wireless power transmission prototype and I conducted an Energy auditing project of a 7 Eleven store"
+        "school": "Centennial",
+        "degree": "Energy Systems Engineering Advanced Diploma",
+        "graduated": "May 2016",
+        "description": "I achieved higher grades  in PLC, Renewable Energy System, Power Electronics. I have designed Solar based Wireless power transmission prototype and I conducted an Energy auditing project of a 7 Eleven store"
       },
       {
-        "school":"Calicut University",
-        "degree":"Bachelor of Technology in Electrical & Electronics Engineering ",
-        "graduated":"May 2013",
-        "description":"During my undergrad I was able to develop my skills in complex problem solving and analytical thinking. Designed and executed two energy efficient projects: 1.Substation Automation (Conducted at Electrical Automation Lab) this project involved in full automation of substation. 2.Power Over Usage Indicator (Conducted at Research & Development Lab"
+        "school": "Calicut University",
+        "degree": "Bachelor of Technology in Electrical & Electronics Engineering ",
+        "graduated": "May 2013",
+        "description": "During my undergrad I was able to develop my skills in complex problem solving and analytical thinking. Designed and executed two energy efficient projects: 1.Substation Automation (Conducted at Electrical Automation Lab) this project involved in full automation of substation. 2.Power Over Usage Indicator (Conducted at Research & Development Lab"
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Bell Canada",
-        "title":"Telecommunications Technician",
-        "years":"May 2017 - Present",
-        "description":"I was doing Installation and maintenance of network systems. I also managed to Troubleshoot complex telecommunications systems. I Started my career in Bell as technician and promoted to Mentor and Trainer. My greatest achivement merit of excellence award for 2018"
+        "company": "Bell Canada",
+        "title": "Telecommunications Technician",
+        "years": "May 2017 - Present",
+        "description": "I was doing Installation and maintenance of network systems. I also managed to Troubleshoot complex telecommunications systems. I Started my career in Bell as technician and promoted to Mentor and Trainer. My greatest achivement merit of excellence award for 2018"
       },
       {
-        "company":"Grasshopper Solar",
-        "title":"Quality Assurance Technologist",
-        "years":"June 2016 - September 2016",
-        "description":"Testing & commissioning of Solar project. Updated the firmware of inverters"
+        "company": "Grasshopper Solar",
+        "title": "Quality Assurance Technologist",
+        "years": "June 2016 - September 2016",
+        "description": "Testing & commissioning of Solar project. Updated the firmware of inverters"
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Git",
-        "level":"80%"
+        "name": "Git",
+        "level": "80%"
       },
       {
-        "name":"Node.js",
-        "level":"80%"
+        "name": "Node.js",
+        "level": "80%"
       },
       {
-        "name":"React.Js",
-        "level":"75%"
+        "name": "React.Js",
+        "level": "75%"
       },
       {
-        "name":"CSS",
-        "level":"70%"
+        "name": "CSS",
+        "level": "70%"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name": "HTML5",
+        "level": "80%"
       },
       {
-        "name":"Express",
-        "level":"65%"
+        "name": "Express",
+        "level": "65%"
       },
       {
-        "name":"PostgreSQL",
-        "level":"80%"
+        "name": "PostgreSQL",
+        "level": "80%"
       },
       {
-        "name":"Ruby on Rails",
-        "level":"50%"
+        "name": "Ruby on Rails",
+        "level": "50%"
       },
       {
-        "name":"Jest",
-        "level":"60%"
+        "name": "Jest",
+        "level": "60%"
       },
       {
-        "name":"Linux",
-        "level":"80%"
+        "name": "Linux",
+        "level": "80%"
       },
       {
-        "name":"Java",
-        "level":"25%"
+        "name": "Java",
+        "level": "25%"
       },
       {
-        "name":"C++",
-        "level":"25%"
+        "name": "C++",
+        "level": "25%"
       },
       {
-        "name":"Adobe Photoshop",
-        "level":"75%"
+        "name": "Adobe Photoshop",
+        "level": "75%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Custom-fitness",
-        "category":"An app that allows to connect trainers and students where trainers can create custom workouts and students can complete it. ",
-        "image":"Custom.gif",
-        "url":"https://customfitness.netlify.app/"
+        "title": "Custom-fitness",
+        "category": "An app that allows to connect trainers and students where trainers can create custom workouts and students can complete it. ",
+        "image": "Custom.gif",
+        "url": "https://customfitness.netlify.app/"
       },
       {
-        "title":"Rumours-Lounge & Restaurant ",
-        "category":"An interactive & responsive web app for restaurant where users can view the menu,submit the order and receive a confirmation SMS & call.",
-        "image":"Rumours.gif",
-        "url":"https://rumours.herokuapp.com/"
+        "title": "Rumours-Lounge & Restaurant ",
+        "category": "An interactive & responsive web app for restaurant where users can view the menu,submit the order and receive a confirmation SMS & call.",
+        "image": "Rumours.gif",
+        "url": "https://rumours.herokuapp.com/"
       },
       {
-        "title":"Interview Scheduler",
-        "category":"An interactive web app to manage interview schedules",
-        "image":"interview.gif",
-        "url":"https://intscheduler.netlify.app/"
+        "title": "Interview Scheduler",
+        "category": "An interactive web app to manage interview schedules",
+        "image": "interview.gif",
+        "url": "https://intscheduler.netlify.app/"
       },
       {
-        "title":"Portfolio Website",
-        "category":"A React based resume website template",
-        "image":"portfolio.gif",
-        "url":" https://meghanath91.herokuapp.com"
+        "title": "Portfolio Website",
+        "category": "A React based resume website template",
+        "image": "portfolio.gif",
+        "url": " https://meghanath91.herokuapp.com"
       }
     ]
   },
-  "testimonials":{
-    "testimonials":[
+  "testimonials": {
+    "testimonials": [
       {
-        "text":"Meghanath was a great team player with good leadership qualities. He was my partner in 2 of our projects and he was extremely goal oriented and hardworking person",
-        "user":"Parth Desai...FullStack Web Developer"
+        "text": "Meghanath was a great team player with good leadership qualities. He was my partner in 2 of our projects and he was extremely goal oriented and hardworking person",
+        "user": "Parth Desai...FullStack Web Developer"
       },
       {
-        "text":"Meghanath showed great passion in learning and coding. He was very focused and determined to achieve his goals during the bootcamp. I have witnessed his hardwork and enthusiasm on his projects",
-        "user":"Vasily Klimkin... Instructor & mentor @ Lighthouse Labs"
+        "text": "Meghanath showed great passion in learning and coding. He was very focused and determined to achieve his goals during the bootcamp. I have witnessed his hardwork and enthusiasm on his projects",
+        "user": "Vasily Klimkin... Instructor & mentor @ Lighthouse Labs"
       }
     ]
   }
