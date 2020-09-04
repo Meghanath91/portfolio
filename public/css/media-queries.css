@@ -11,6 +11,9 @@
 @media only screen and (max-width: 1024px) {
   /* header styles
    ------------------------------------------------------------------ */
+  header .banner-text {
+    margin-top: 50%;
+  }
   header .banner-text h1 {
     font: 80px/1.1em "opensans-bold", sans-serif;
     letter-spacing: -1px;

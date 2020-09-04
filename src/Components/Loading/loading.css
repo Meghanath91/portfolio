@@ -1,7 +1,11 @@
 .loading-container {
-  /* padding: 25%; */
   margin-top: 30%;
   margin-left: 70%;
-
-  /* margin-bottom: 100%; */
+}
+@media only screen and (max-width: 767px) {
+  .loading-container {
+    padding: 10%;
+    margin-top: 0%;
+    margin-left: 5%;
+  }
 }
