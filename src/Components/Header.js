@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Loading from "./Loading/Loading";
+import Zoom from "react-reveal/Zoom";
 
 // import ReactPlayer from "react-player";
 
 class Header extends Component {
   render() {
     if (this.props.data) {
-      var name = this.props.data.name;
       var occupation = this.props.data.occupation;
       var description = this.props.data.description;
       var city = this.props.data.address.city;
@@ -64,27 +64,23 @@ class Header extends Component {
             </li>
           </ul>
         </nav>
+
         <div className="video-content">
-          <Loading />
-          {/* <ReactPlayer
-            className="video"
-            playing="true"
-            autoplay
-            loop
-            muted
-            width="100%"
-            height="100%"
-            url="/images/earth.mp4"
-          /> */}
+          <Zoom>
+            <Loading />
+          </Zoom>
         </div>
 
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">I'm {name}</h1>
+            <h1 className="responsive-headline">I'm Meghanath.</h1>
+
             <h3>
               I'm a {city} based <span>{occupation}</span>. {description}.
             </h3>
+
             <hr />
+
             <ul className="social">{networks}</ul>
           </div>
         </div>

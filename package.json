@@ -20,7 +20,8 @@
     "react-ga": "^2.7.0",
     "react-lottie": "^1.2.3",
     "react-player": "^1.15.3",
-    "react-scripts": "3.4.1"
+    "react-reveal": "^1.2.2",
+    "react-scripts": "3.4.1",
   },
   "scripts": {
     "start": "react-scripts start",

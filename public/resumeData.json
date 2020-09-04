@@ -4,7 +4,7 @@
     "occupation": "Full Stack Web Developer",
     "description": "A developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing websites with end users in mind.",
     "image": "profilepic.jpg",
-    "bio": "I am a Full Stack Web Developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing and developing websites with end users in mind. I started coding C++ when I was in high school, Later on I learned Java from professional course. When I got the right time to switch career I joined in a coding boot camp, which gave me confidence and experience to present my self as Full stack developer. I don't like to define myself by the work I've done. I define myself by the work I want to do. Skills can be taught but attitude is inherent . I am a multi-talented person with knowledge and experience in different fields especially in telecommunications, networking. I prefer to keep learning, continue challenging myself, and do interesting things that matter. Moreover I am a professional photographer and graphic designer, so I wanted to combine these experiences together and create multidimensional experiences for users.",
+    "bio": "I am a Full Stack Web Developer with a strong interest in projects requiring conceptual and analytical thinking. Currently I am working as Junior developer at a startup called MedEssist. I enjoy designing and developing web applications with end users in mind. In the past year I have acquired strong knowledge and experience in the latest technologies on the web. I am excited to apply those skills.  This role looks challenging to me. I want to bring my passion and energy to a company that is doing meaningful work and striving to create values for society.",
     "contactmessage": "Please send me message",
     "email": "meghanath.balaji@gmail.com",
     "phone": "647-528-7504",
@@ -141,13 +141,13 @@
         "url": "https://rumours.herokuapp.com/"
       },
       {
-        "title": "Interview Scheduler",
+        "title": "Interview-Scheduler",
         "category": "An interactive web app to manage interview schedules",
         "image": "interview.gif",
         "url": "https://intscheduler.netlify.app/"
       },
       {
-        "title": "Portfolio Website",
+        "title": "Portfolio-Website",
         "category": "A React based resume website template",
         "image": "portfolio.gif",
         "url": " https://meghanath91.herokuapp.com"

@@ -216,7 +216,7 @@ ul#nav li.current a {
   padding-top: 96px;
   padding-bottom: 66px;
   overflow: hidden;
-  height: 1200px;
+  height: 1000px;
 }
 
 #about a,
@@ -552,9 +552,9 @@ ul#nav li.current a {
   margin-left: -15px;
   margin-top: -15px;
 }
-.portfolio-item .item-wrap img {
+/* .portfolio-item .item-wrap img {
    heig
-}
+} */
 .portfolio-item .portfolio-item-meta {
   padding: 18px;
 }
