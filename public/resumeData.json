@@ -4,7 +4,7 @@
     "occupation": "Full Stack Web Developer",
     "description": "A developer with a strong interest in projects requiring conceptual and analytical thinking. I enjoy designing websites with end users in mind.",
     "image": "profilepic.jpg",
-    "bio": "I am a Full Stack Web Developer with a strong interest in projects requiring conceptual and analytical thinking. Currently I am working as Junior developer at a startup called MedEssist. I enjoy designing and developing web applications with end users in mind. In the past year I have acquired strong knowledge and experience in the latest technologies on the web. I am excited to apply those skills.  This role looks challenging to me. I want to bring my passion and energy to a company that is doing meaningful work and striving to create values for society.",
+    "bio": "I am a Full Stack Web Developer with a strong interest in projects requiring conceptual and analytical thinking. Currently I am working as Full Stack developer at a startup called MedEssist. I enjoy designing and developing web applications with end users in mind. In the past year I have acquired strong knowledge and experience in the latest technologies on the web. I am excited to apply those skills. I want to bring my passion and energy to a company that is doing meaningful work and striving to create values for society.",
     "contactmessage": "Please send me message",
     "email": "meghanath.balaji@gmail.com",
     "phone": "647-528-7504",
@@ -59,16 +59,16 @@
     ],
     "work": [
       {
-        "company": "Bell Canada",
-        "title": "Telecommunications Technician",
-        "years": "May 2017 - Present",
-        "description": "I was doing Installation and maintenance of network systems. I also managed to Troubleshoot complex telecommunications systems. I Started my career in Bell as technician and promoted to Mentor and Trainer. My greatest achivement merit of excellence award for 2018"
+        "company": "CoEng 2020",
+        "title": "Full Stack Developer",
+        "years": "September 2020 - Present",
+        "description": "Create reusable components in React/Redux app. Build and Optimise Micro services. Build responsive design for both mobile and web Integrate 3rd party API services.Performed IoT development"
       },
       {
-        "company": "Grasshopper Solar",
-        "title": "Quality Assurance Technologist",
-        "years": "June 2016 - September 2016",
-        "description": "Testing & commissioning of Solar project. Updated the firmware of inverters"
+        "company": "MedEssist",
+        "title": "Junior Developer",
+        "years": "April 2020 - September 2020",
+        "description": "Create and optimise React components. Enhance UX/UI , create responsive design. Architect and build  French version. Integrate with Medessist inventory app."
       }
     ],
     "skills": [
@@ -151,6 +151,18 @@
         "category": "A React based resume website template",
         "image": "portfolio.gif",
         "url": " https://meghanath91.herokuapp.com"
+      },
+      {
+        "title": "Buzzit",
+        "category": "A movie searching app built with Vue and Vuetify",
+        "image": "buzzit.gif",
+        "url": "https://movieitt.netlify.app"
+      },
+      {
+        "title": "BookList-App",
+        "category": "A book listing application built with React & Redux",
+        "image": "BookListApp.gif",
+        "url": "https://booklista.netlify.app/"
       }
     ]
   },
