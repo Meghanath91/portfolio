@@ -21,7 +21,7 @@
     "react-lottie": "^1.2.3",
     "react-player": "^1.15.3",
     "react-reveal": "^1.2.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
